@@ -2,9 +2,8 @@
 
 This example Terraform repo shows how to automaticaly deploy a Sumo Logic collector on a Linux EC2 instance in a Security Group within your default VPC.
 
-The goal is to show how Sumo Logic's collector agent can be automatically integrated into your Terraform-deployed EC2s.
 
-To test, you will need:
+## Prerequisites ##
 
 0. Terraform
 1. A Sumo Logic account (sign up for free here: https://www.sumologic.com/signup-free/?utm_medium=sales+email)
