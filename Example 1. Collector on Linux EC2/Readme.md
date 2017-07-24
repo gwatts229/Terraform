@@ -28,3 +28,7 @@ To test, you will need:
 ```/path/to/terrafom plan```
 - There are some configurable variables built in. For exmaple, the default AWS Region that this EC2 will be launched into is us-east-1, but you can pass in another region like this:
 ```path/to/terraform /terraform apply -var region=us-west-2```
+3. Terrafrom will interactively ask you for your Sumo Logic Access Key pair - generate a key pair inside Sumo logic and enter it now
+- In the Sumo Logic Web Application click your name in the left nav and open the Preferences page
+- Next to My Access Keys, click the + icon to Add
+- See the official Sumo Logic documentation here: https://help.sumologic.com/Manage/Security/Access-Keys
