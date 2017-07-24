@@ -52,8 +52,6 @@ resource "aws_instance" "example" {
 resource "aws_security_group" "instance" {
 	name = "terraform-exmaple-instance"
 
-#  description = "Allow all 80, 443"
-
   ingress {
     from_port   = 80
     to_port     = 80
