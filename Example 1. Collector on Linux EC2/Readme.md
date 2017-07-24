@@ -23,7 +23,7 @@ To test, you will need:
 
 1. First, copy this repo (Example 1. Collector on Linux EC2) somewhere locally. 
 - You'll need all 3 files: main.tf, vars.tf, and user_data.sh
-- main.tf will use user_data.sh to bootstrap your EC2, and will use vars.tf to perfomr lookups based on a Linux AMI map, a Sumo Logic collector endpoint map, and some other variables
+- main.tf will use user_data.sh to bootstrap your EC2, and will use vars.tf to perform lookups based on a Linux AMI map, a Sumo Logic collector endpoint map, and some other variables
 2. Then, test out Terraform by running: 
 '''/path/to/terrafom plan'''
 - There are some configurable variables built in. For exmaple, the default AWS Region that this EC2 will be launched into is us-east-1, but you can pass in another region like this:
