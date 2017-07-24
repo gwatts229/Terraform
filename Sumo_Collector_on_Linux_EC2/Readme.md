@@ -11,5 +11,6 @@ To test, you will need:
 4. AWS User key pair
 - You can export these in your shell session one time:
 > export AWS_Access_Key_ID=(your_ID)
+
 > export AWS_Secret_Access_key=(your_key)
 - Or if you have already set up the AWS CLI or SDKs in your local environment, Terraform can use the credentials stored at $home/.aws/credentials which is created for you after running the configure command on the AWS CLI
