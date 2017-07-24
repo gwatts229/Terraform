@@ -1,0 +1,35 @@
+{
+  "api.version":"v1",
+  "sources":[{
+    "name":"Cron Logs",
+    "category":"test/linux/cron",
+    "pathExpression":"/var/log/cron*",
+    "cutoffRelativeTime":"-1h",
+    "sourceType":"LocalFile"
+  },{
+    "name":"Host Metrics",
+    "category":"test/linux/host-metrics",
+    "cutoffTimestamp":0,
+    "interval":60000,
+    "metrics":["CPU_User","CPU_Sys","CPU_Nice","CPU_Idle","CPU_IOWait","CPU_Irq","CPU_SoftIrq","CPU_Stolen","CPU_LoadAvg_1min","CPU_LoadAvg_5min","CPU_LoadAvg_15min","Mem_Total","Mem_Used","Mem_Free","Mem_ActualFree","Mem_ActualUsed","Mem_UsedPercent","Mem_FreePercent","Mem_PhysicalRam","TCP_InboundTotal","TCP_OutboundTotal","TCP_Established","TCP_Listen","TCP_Idle","TCP_Closing","TCP_CloseWait","TCP_Close","TCP_TimeWait","Net_InPackets","Net_OutPackets","Net_InBytes","Net_OutBytes","Disk_Reads","Disk_ReadBytes","Disk_Writes","Disk_WriteBytes","Disk_Queue","Disk_InodesAvailable","Disk_Used","Disk_Available"],
+    "sourceType":"SystemStats"
+  },{
+    "name":"Linux System Audit Logs",
+    "category":"test/linux/system",
+    "pathExpression":"/var/log/audit/*.log*",
+    "cutoffRelativeTime":"-1h",
+    "sourceType":"LocalFile"
+  },{
+    "name":"Linux System Messages Logs",
+    "category":"test/linux/system",
+    "pathExpression":"/var/log/messages*",
+    "cutoffRelativeTime":"-1h",
+    "sourceType":"LocalFile"
+  },{
+    "name":"Linux System Secure Log",
+    "category":"test/linux/system",
+    "pathExpression":"/var/log/secure*",
+    "cutoffRelativeTime":"-1h",
+    "sourceType":"LocalFile"
+  }]
+}
