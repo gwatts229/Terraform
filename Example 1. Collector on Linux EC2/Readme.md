@@ -45,4 +45,3 @@ This example Terraform repo shows how to automaticaly deploy a Sumo Logic collec
 - Install the Sumo Logic Aplpications for Linux and Host Metrics to get pre-built reports and dashboards:
   - Linux: https://help.sumologic.com/Send-Data/Data_Types/Linux/Install_the_Linux_App
   - Host Metrics: https://help.sumologic.com/Send-Data/Data_Types/Host_Metrics/02Install_the_Host_Metrics_App
-  -
