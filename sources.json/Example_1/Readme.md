@@ -1,7 +1,7 @@
 This sources.json file describes the following sources to be collected by the Sumo Logic agent on a Linux based EC2 instance:
 
 - Linux OS logs
-  - Audit log: /var/log/audit/*.log*
+  - Audit log: /var/log/audit/\*.log*
   - Messages log: /var/log/messages*
   - Secure log: /var/log/secure*
 - Cron log: /var/log/cron*
