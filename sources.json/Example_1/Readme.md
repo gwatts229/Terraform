@@ -7,7 +7,7 @@ This sources.json file describes the following sources to be collected by the Su
 - Cron log: /var/log/cron*
 - Host Metrics: CPU, Memory, TCP, Network, Disk metrics
 
-You must locally download this file (wget the file with UserData, for example) before you start the collector so that it know what sources to scan.
+You must locally download this file (wget the file with UserData, in this example) before you start the collector so that it know what sources to scan.
 
 For more documentation, see the official Sumo Logic Documentation here:
 
