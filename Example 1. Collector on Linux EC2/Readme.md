@@ -9,7 +9,7 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 ## Prerequisites
 
 1. Terraform - If you have not used Terraform I recommend Terraform: Up and Running - [GitHub Repo](https://github.com/brikis98/terraform-up-and-running-code) / [Book](http://www.terraformupandrunning.com/)
-2. A Sumo Logic account (sign up for free here: https://www.sumologic.com/signup-free/?utm_medium=sales+email)
+2. A Sumo Logic account - sign up for free [here](https://www.sumologic.com/signup-free/?utm_medium=sales+email)
 - You'll need to download an Sumo Logic collector management key pair later
 3. Access to your AWS account
 - AmazonEC2FullAccess permissions
@@ -42,11 +42,11 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 4. Terrafrom will interactively ask you for your Sumo Logic Access Key pair - generate a key pair inside Sumo logic and enter it now
 - In the Sumo Logic Web Application click your name in the left nav and open the Preferences page
 - Next to My Access Keys, click the + icon to Add
-- See the official Sumo Logic documentation here: https://help.sumologic.com/Manage/Security/Access-Keys
+- See the official Sumo Logic documentation [here](https://help.sumologic.com/Manage/Security/Access-Keys)
 
 5. Done! After about 2-3 minutes, check under Manage Data > Collection in the Sumo Logic UI and you should see you new collector running and scanning the sources we specified in the sources.json (Linux OS logs, Cron log, and Host Metrics)
 
 **Bonus**
 - Install the Sumo Logic Aplpications for Linux and Host Metrics to get pre-built reports and dashboards:
-  - Linux: https://help.sumologic.com/Send-Data/Data_Types/Linux/Install_the_Linux_App
-  - Host Metrics: https://help.sumologic.com/Send-Data/Data_Types/Host_Metrics/02Install_the_Host_Metrics_App
+  - [Linux App](https://help.sumologic.com/Send-Data/Data_Types/Linux/Install_the_Linux_App)
+  - [Host Metrics App](https://help.sumologic.com/Send-Data/Data_Types/Host_Metrics/02Install_the_Host_Metrics_App)
