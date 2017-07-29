@@ -49,6 +49,6 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 5. Done! After about 2-3 minutes, check under Manage Data > Collection in the Sumo Logic UI and you should see you new collector running and scanning the sources we specified in the sources.json (Linux OS logs, Cron log, and Host Metrics)
 
 **Bonus**
-- Install the Sumo Logic Aplpications for Linux and Host Metrics to get pre-built reports and dashboards:
+- Install the [Sumo Logic Applications](https://help.sumologic.com/Search/Library/Apps-in-Sumo-Logic/01-Sumo-Logic-Apps) for Linux and Host Metrics to get pre-built reports and dashboards:
 - [Linux App](https://help.sumologic.com/Send-Data/Data_Types/Linux/Install_the_Linux_App)
 - [Host Metrics App](https://help.sumologic.com/Send-Data/Data_Types/Host_Metrics/02Install_the_Host_Metrics_App)
