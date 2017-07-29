@@ -16,8 +16,11 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 4. AWS Authentication
 - Option 1: User key pair
 - You can export these in your shell session one time:
+
 ```> export AWS_Access_Key_ID=(your_ID)```
+
 ```> export AWS_Secret_Access_key=(your_key)```
+
 - Option 2: Set up the AWS CLI or SDKs in your local environment.
 - Terraform can use the credentials stored at $home/.aws/credentials which is created for you after running the configure command on the AWS CLI
 
