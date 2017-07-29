@@ -43,7 +43,7 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 - If your Sumo Logic Deployment is in another Region, like DUB or SYD, you can run the command like this:
 ```path/to/terraform /terraform apply -var Sumo_Logic_Region=SYD```
 
-5. Terrafrom will interactively ask you for your Sumo Logic Access Key pair - generate a key pair inside Sumo logic and enter it now
+5. Terraform will interactively ask you for your Sumo Logic Access Key pair - generate a key pair inside Sumo logic and enter it now
 - In the Sumo Logic Web Application click your name in the left nav and open the Preferences page
 - Next to My Access Keys, click the + icon to Add
 - See the official Sumo Logic documentation [here](https://help.sumologic.com/Manage/Security/Access-Keys)
