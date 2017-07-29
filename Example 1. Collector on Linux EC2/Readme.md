@@ -35,15 +35,16 @@ Using [Local File Management](https://help.sumologic.com/Send-Data/Sources/03Use
 ```/path/to/terrafom plan```
 - You can safely enter 'test' for the var.Sumo_Logic_Access_ID and var.Sumo_Logic_Access_Key inputs while you are testing with ```plan```
 
-3. Get your Sumo Logic [Access Keys](https://help.sumologic.com/Manage/Security/Access-Keys) from your Sumo Logic account
-
 4. Run Terraform and create your EC2
 - There are some configurable variables built in. For example, the default AWS Region that this EC2 will be launched into is us-east-1, but you can pass in another region like this:
 ```path/to/terraform /terraform apply -var region=us-west-2```
 - If your Sumo Logic Deployment is in another Region, like DUB or SYD, you can run the command like this:
 ```path/to/terraform /terraform apply -var Sumo_Logic_Region=SYD```
 
-5. Terraform will interactively ask you for your Sumo Logic Access Key pair - generate a key pair inside Sumo logic and enter it now
+5. Terraform will interactively ask you for your Sumo Logic Access Key pair
+
+- Get your Sumo Logic [Access Keys](https://help.sumologic.com/Manage/Security/Access-Keys) from your Sumo Logic account
+
 - In the Sumo Logic Web Application click your name in the left nav and open the Preferences page
 - Next to My Access Keys, click the + icon to Add
 - See the official Sumo Logic documentation [here](https://help.sumologic.com/Manage/Security/Access-Keys)
